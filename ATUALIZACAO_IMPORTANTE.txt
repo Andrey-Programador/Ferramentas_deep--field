@@ -1,0 +1,14 @@
+CORRECAO DO ERRO diagnostico_relatorio
+
+Substitua JUNTOS estes dois arquivos na mesma pasta:
+- SCA_Light_app.py (ou Deep_Field_app.py)
+- sca_reports.py
+
+Depois apague a pasta __pycache__ e reinicie o Streamlit.
+
+Windows CMD:
+rmdir /s /q __pycache__
+py -3.11 -m streamlit run SCA_Light_app.py
+
+Verificacao opcional:
+py -3.11 -c "from sca_reports import diagnostico_relatorio; print('Importacao OK')"
