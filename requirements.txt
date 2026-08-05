@@ -9,5 +9,5 @@ pypdf==5.1.0
 python-pptx==1.0.2
 reportlab==4.2.5
 pillow==11.0.0
-starlette<1.4.0
-uvicorn<0.52.0
+starlette==0.41.3
+uvicorn==0.30.6
